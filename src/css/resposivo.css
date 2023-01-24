@@ -1,0 +1,85 @@
+/* media query para o fundo do video e o container < 1200px */
+
+@media (max-width: 1200px) {
+
+    .fundo-video{
+        display: none;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .mario{
+        max-width: 50%;
+    }
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao{
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .container .botao-trailer{
+        background-color: #ff0000;
+        margin-top: 30px;
+
+    }
+}
+
+/* media query para o fundo do video e o container < 500px */
+
+@media(max-width: 500px){
+
+    .fundo-video{
+        display: none;
+    }
+    
+    .cabecalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo{
+        max-width: 75%;
+    }	
+
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+        width: 300px;
+        height: 169px;
+    }
+
+    .container .mario{
+        max-width: 100%;
+    }
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao{
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .container .botao-trailer{
+        background-color: #ee2e15;
+        margin-top: 30px;
+    }
+}
